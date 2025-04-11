@@ -1,6 +1,9 @@
 import { describe, expect, test } from "vitest";
 
-import { makeTestCaller, makeTestCallerWithSession } from "../tests/testCaller";
+import {
+  makeTestCaller,
+  makeTestCallerWithSession,
+} from "../tests/test-caller";
 
 describe("auth router", () => {
   test("getSession returns null when no session exists", async () => {
